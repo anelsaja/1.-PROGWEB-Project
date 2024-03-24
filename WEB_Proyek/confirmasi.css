@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #811001;
+  }
+  .logo1 img {
+    margin-left: 3rem;
+    width: 65px;
+    height: 50px;
+  }
+  .website {
+    margin-left: 10px;
+  }
+  .website a {
+    text-decoration: none;
+    color: white;
+  }
+
+main{
+    text-align: center;
+}

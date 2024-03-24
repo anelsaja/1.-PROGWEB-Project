@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+
+
+
+
+.detail-event {
+    gap: 16px;
+
+}
+
+.event-banner img{
+    float: left;
+    width: 50%;
+    border-radius: 12px;
+    margin: 28px;
+}
+
+.detail-info { 
+    margin-left: 50px;
+    gap: 18px;
+    display: flex;
+    padding-top:18px ;
+    margin-top: 12px;
+    flex-direction: column;
+    justify-content: right;
+    padding-bottom: 20%;
+}
+
+label {
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 0px;
+}
+
+span {
+    font-weight: 600;
+    color: black;
+    padding: 2px 0;
+
+}
+
+.calendar, .time, .location {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .calendar-icon, .time-icon, .location-icon {
+    display: flex;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+  }
+  
+  .calendar-icon i, .time-icon i, .location-icon i {
+    width: 10%;
+    height: 28px;
+  }
+  
+  .calendar-text, .time-text, .location-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .calendar span, .time span, .location span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #181818;
+    padding: 2px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .link-location {
+    text-decoration: none;
+    color: #1f1f95;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .beli-tiket :hover {
+    background-color: #1f1f95;
+    color: #fff;
+
+  }
+
+  .btn-beli {
+    border: 0;
+    background-color: #1f1f95;
+    padding: 12px 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 50%;
+    border-radius: 8px;
+  }
+  
+  
+  .btn-beli :hover  {
+    background-color: purple
+   
+  }
+
+  .btn-beli :hover {
+    background-color: blanchedalmond;
+  }
+
+  .button {
+    cursor: pointer;
+  }
+
+
+
+
+
+  .stage-maps img {
+    border-radius: 12px;
+    margin-right: 5%;
+  }
+
+  .seat img {
+    float: left;
+    width: 30%;
+  }
+
+  .seat {
+    height: 600px;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .seat:hover {
+    transform: scale(1.2);
+    
+  }
+
+  .stage-maps {
+    margin-left: 150px;
+  }
+  
